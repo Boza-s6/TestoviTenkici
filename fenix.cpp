@@ -7,7 +7,7 @@ Fenix::Fenix()
 }
 
 Fenix::Fenix(qreal x, qreal y)
-    : SpecialQGraphicsPixmapItem("./img/fenix.png", x, y), mHealth(300)
+    : SpecialQGraphicsPixmapItem(":/img/fenix.png", x, y), mHealth(300)
 {
 
 }

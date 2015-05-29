@@ -30,3 +30,7 @@ HEADERS  += glavniprozor.h \
 FORMS    += glavniprozor.ui
 
 QMAKE_CXXFLAGS += -std=c++11
+
+RESOURCES += \
+    img.qrc \
+    maps.qrc

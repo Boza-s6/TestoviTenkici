@@ -7,7 +7,7 @@ SpecialQGraphicsPixmapItem::SpecialQGraphicsPixmapItem(const char *slika, qreal 
 }
 
 SpecialQGraphicsPixmapItem::SpecialQGraphicsPixmapItem()
-    :QGraphicsPixmapItem(QPixmap("./img/special.png"))
+    :QGraphicsPixmapItem(QPixmap(":/img/special.png"))
 {
     setPos(0, 0);
 }

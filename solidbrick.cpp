@@ -7,7 +7,7 @@ SolidBrick::SolidBrick()
 }
 
 SolidBrick::SolidBrick(qreal x, qreal y)
-    :Brick("./img/stone.png", x, y)
+    :Brick(":/img/stone.png", x, y)
 {
 }
 

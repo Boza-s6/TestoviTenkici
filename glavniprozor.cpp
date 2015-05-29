@@ -8,7 +8,7 @@ GlavniProzor::GlavniProzor(QWidget *parent) :
     ui->setupUi(this);
     mScena = new QGraphicsScene(QRectF(0, 0, 1000, 700), this);
     ui->graphicsView->setScene(mScena);
-    ui->graphicsView->setBackgroundBrush(QBrush(QPixmap("./img/bg_pattern.png")));
+    ui->graphicsView->setBackgroundBrush(QBrush(QPixmap(":/img/bg_pattern.png")));
 
 
     //pravimo dugmice za pocetak igre i za izlazak iz igre
@@ -40,7 +40,7 @@ void GlavniProzor::inicijalizujIgru()
     mScena->removeItem(mProxyDugmeNovaIgra);
     mScena->removeItem(mProxyDugmeIzadji);
 
-    Map::readMap(mScena, "./maps/first.map");
+    Map::readMap(mScena, ":/maps/first.map");
 
 
     ui->graphicsView->scale(mScreen.width()/ui->graphicsView->sceneRect().width() - 0.1,
